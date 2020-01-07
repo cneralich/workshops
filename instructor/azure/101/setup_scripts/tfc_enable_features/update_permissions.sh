@@ -8,7 +8,7 @@ set -eo pipefail
 # Usage:
 #   * grab an api token from TFC with admin access
 #   * `export TOKEN=blah`
-#   * `./upgrade.sh < one_org_name_per_line.txt`
+#   * `./update_permissions.sh < orgs_to_update.txt`
 
 BASE_URL=https://app.terraform.io
 FEATURE_SET_ID=fs-xFJU3Cakg8QyZP5q # Self-Serve Preview

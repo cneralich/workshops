@@ -27,4 +27,7 @@ users = ["student1", "student2", ...]
 ```
 ./update_permissions.sh < orgs_to_update.txt
 ```
-**Note:** You need to set the `TOKEN` environment variable in your terminal beforehand, and this token must be a User Token with Admin permissions
+**Notes:** 
+1. You need to set the `TOKEN` environment variable in your terminal beforehand, and this token must be a User Token with Admin permissions
+2. Make sure you update the `TRIAL_EXPIRATION` value in the 'update_permissions.sh' script accordingly
+
